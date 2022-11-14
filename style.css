@@ -13,6 +13,7 @@ strong {
 :root {
     --fs-xl: 3.75rem;
     --fs-400: 1rem;
+    --fs-300: 0.75rem;
     --fs-nav: 0.75rem;
 }
 
@@ -100,9 +101,11 @@ a {
 }
 
 .home-page-content h2 {
-    font-size: var(--fs-400);
+    font-size: var(--fs-300);
     font-weight: 100;
     margin-bottom: 300px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 .navbar {
