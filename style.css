@@ -28,6 +28,22 @@ body {
     }
 }
 
+/* CSS animations */
+
+.fade-in {
+    animation: fadeIn 3000ms ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 /* General webpage structure */
 
 * {
