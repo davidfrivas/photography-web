@@ -1,0 +1,95 @@
+/* Website font */
+
+html {
+    font-family: Garamond, serif;
+}
+
+strong {
+    font-weight: unset;
+}
+
+/* Font size */
+
+:root {
+    --fs-xl: 3.75rem;
+    --fs-400: 1rem;
+    --fs-nav: 0.75rem;
+}
+
+body {
+    font-size: var(--fs-400);
+}
+
+@media (min-width: 40em) {
+    :root {
+        --fs-xl: 4rem;
+        --fs-400: 1.25rem;
+        --fs-nav: 0.9rem;
+    }
+}
+
+/* General webpage structure */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper.home {
+    background-image: url(./images/home-bg-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: auto;
+    color: white;
+    padding-left: 5%;
+}
+
+@media (min-width: 40em) {
+    .wrapper.home {
+        background-image: url(./images/home-bg.jpg);
+    }
+}
+
+.home-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+
+.home-page-content h1 {
+    font-size: var(--fs-xl);
+    font-weight: 100;
+}
+
+.home-page-content h2 {
+    font-size: var(--fs-400);
+    font-weight: 100;
+    margin-bottom: 250px;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-link {
+    font-size: var(--fs-nav);
+}
