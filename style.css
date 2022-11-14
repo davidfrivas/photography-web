@@ -19,6 +19,7 @@ strong {
 
 body {
     font-size: var(--fs-400);
+    letter-spacing: 0.1rem;
 }
 
 @media (min-width: 40em) {
