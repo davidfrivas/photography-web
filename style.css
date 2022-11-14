@@ -71,7 +71,6 @@ a {
     min-height: 100vh;
     width: auto;
     color: white;
-    padding-left: 5%;
 }
 
 @media (min-width: 40em) {
@@ -86,6 +85,7 @@ a {
     align-items: flex-start;
     justify-content: center;
     height: 100vh;
+    padding-left: 5%;
 }
 
 .home-page-content h1 {
@@ -108,4 +108,17 @@ a {
 
 .nav-link {
     font-size: var(--fs-nav);
+}
+
+footer {
+    font-size: 0.5rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 40em) {
+    footer {
+        text-align: unset;
+        padding-left: 5%;
+    }
 }
