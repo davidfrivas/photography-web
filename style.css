@@ -15,6 +15,7 @@ strong {
     --fs-400: 1rem;
     --fs-300: 0.75rem;
     --fs-nav: 0.75rem;
+    --fs-footer: 0.75rem;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
         --fs-xl: 4rem;
         --fs-400: 1.25rem;
         --fs-nav: 0.9rem;
+        --fs-footer: 0.5rem;
     }
 }
 
@@ -103,10 +105,10 @@ a {
 
 .home-page-content h2 {
     font-size: var(--fs-300);
-    font-weight: 100;
-    margin-bottom: 300px;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    margin-bottom: 5px;
 }
 
 .navbar {
@@ -123,12 +125,11 @@ a {
 footer {
     font-size: 0.5rem;
     text-align: center;
-    padding-bottom: 5px;
+    margin-bottom: 300px;
 }
 
 @media (min-width: 40em) {
     footer {
         text-align: unset;
-        padding-left: 5%;
     }
 }
