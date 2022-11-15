@@ -94,7 +94,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 100vh;
     padding-left: 0;
 }
@@ -124,6 +124,7 @@ a {
     flex-flow: wrap;
     align-items: center;
     gap: 25px;
+    margin-top: 20vh;
 }
 
 .nav-link {
@@ -132,7 +133,6 @@ a {
 
 footer {
     font-size: var(--fs-footer);
-    margin-bottom: 300px;
 }
 
 @media (min-width: 40em) {
