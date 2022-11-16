@@ -74,6 +74,7 @@ body {
 body {
     margin: 0;
     background-color: black;
+    color: white;
 }
 
 h1, h2 {
@@ -91,7 +92,6 @@ a {
     background-position: center;
     min-height: 100vh;
     width: auto;
-    color: white;
 }
 
 @media (min-width: 40em) {
@@ -115,12 +115,12 @@ a {
     }
 }
 
-.home-page-content h1 {
+.home-page-content .david-rivas {
     font-size: var(--fs-xl);
     font-weight: 100;
 }
 
-.home-page-content h2 {
+.home-page-content .photography {
     font-size: var(--fs-300);
     font-weight: 400;
     text-transform: uppercase;
