@@ -105,7 +105,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    height: 100vh;
     padding-left: 0;
 }
 
@@ -134,6 +133,9 @@ a {
     flex-flow: wrap;
     align-items: center;
     gap: 25px;
+}
+
+.home-page-content .navbar {
     margin-top: 20vh;
 }
 
