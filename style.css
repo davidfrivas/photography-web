@@ -23,7 +23,7 @@ body {
     letter-spacing: 0.1rem;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 35em) {
     :root {
         --fs-xl: 4.25rem;
         --fs-400: 1.25rem;
@@ -204,7 +204,7 @@ footer {
     margin-bottom: 25px;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 35em) {
     footer {
         text-align: unset;
     }
@@ -225,7 +225,7 @@ footer {
     margin-top: 25px;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 35em) {
     .photography {
         text-align: center;
     }
