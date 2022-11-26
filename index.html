@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Rivas Photography</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preload" as="image" href="./images/home-bg.jpg">
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
 </head>
-<body>
-    <div class="wrapper home">
-        <div class="home-page-content fade-in">
-            <div class="navbar">
-                <a class="nav-link" href="./">Home</a>
-                <a class="nav-link">Gallery</a>
-                <a class="nav-link">About</a>
-                <a class="nav-link">Contact</a>
-            </div>
-            <div class="logo">
-                <h1 class="david-rivas"><strong><i>David Rivas</i></strong></h1>
-                <h2 class="photography">Portrait Photography</h2>
-            </div>
-            <footer class="fade-in">
+<body id="home">
+    <div class="wrapper home fade">
+        <div class="menu">
+        
+            <footer>
                 Copyright &copy; <script>document.write(new Date().getFullYear())</script> David Rivas
             </footer>
         </div>
     </div>
+    <script>
+        $('.home.fade').bind('animationend webkitAnimationEnd MSAnimationEnd oAnimationEnd', function(e) {
+        window.location.href = "./pages/menu.html";
+        });
+    </script>
 </body>
 </html>
