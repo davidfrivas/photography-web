@@ -116,13 +116,13 @@ a {
 }
 
 .wrapper.home.menu-page {
-    background-size: 200%;
-    background-position: 20% 20%;
+    background-size: 250%;
+    background-position: 30% 20%;
 }
 
 @media (max-width: 35em) {
     .wrapper.home.menu-page {
-        background-size: 625%;
+        background-size: 650%;
         background-position: center 0%;
     }
 }
