@@ -110,7 +110,7 @@ a {
 .wrapper.home {
     background-image: url(./images/home-bg.jpg);
     background-size: cover;
-    background-position: center bottom;
+    background-position: center 70%;
     min-height: 100vh;
     width: auto;
 }
